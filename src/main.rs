@@ -4,7 +4,6 @@ use macroquad::{prelude::*, miniquad::window::set_window_size};
 use std::fs::File;
 use std::io::*;
 // used for bit opperations
-#[path ="../../conversion.rs"]
 mod conversion;
 use crate::conversion::*;
 // Error message constants
